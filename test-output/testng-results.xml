@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="14" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="cashkaro" duration-ms="115153" started-at="2016-02-12T09:34:49Z" finished-at="2016-02-12T09:36:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="115153" started-at="2016-02-12T09:34:49Z" finished-at="2016-02-12T09:36:44Z">
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest">
+        <test-method status="PASS" signature="verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]" name="verifyJoinFormConfirmEmailErrorTest" duration-ms="4934" started-at="2016-02-12T09:35:54Z" finished-at="2016-02-12T09:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFormConfirmEmailErrorTest -->
+        <test-method status="PASS" signature="verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]" name="verifyJoinFromBannerSectionInvalidTest" duration-ms="5027" started-at="2016-02-12T09:35:59Z" finished-at="2016-02-12T09:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFromBannerSectionInvalidTest -->
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest -->
+      <class name="com.cashkaro.tests.login.LoginWithFacebookTest">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]" name="loginTest" duration-ms="5234" started-at="2016-02-12T09:36:39Z" finished-at="2016-02-12T09:36:44Z">
+          <exception class="com.cashkaro.ui_tests.AutomationException">
+            <full-stacktrace>
+              <![CDATA[com.cashkaro.ui_tests.AutomationException
+	at com.cashkaro.ui_tests.DriverScript.switchToBrowser(DriverScript.java:134)
+	at com.cashkaro.helpers.FacebookHelper.loginFacebook(FacebookHelper.java:21)
+	at com.cashkaro.helpers.SignInHelper.loginWithFacebook(SignInHelper.java:95)
+	at com.cashkaro.tests.login.LoginWithFacebookTest.loginTest(LoginWithFacebookTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.cashkaro.ui_tests.AutomationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.cashkaro.tests.login.LoginWithFacebookTest -->
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest">
+        <test-method status="PASS" signature="verifyJoinFormConfirmEmailErrorTest()[pri:1, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]" name="verifyJoinFormConfirmEmailErrorTest" duration-ms="4090" started-at="2016-02-12T09:36:04Z" finished-at="2016-02-12T09:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFormConfirmEmailErrorTest -->
+        <test-method status="FAIL" signature="verifyJoinFromBannerSectionInvalidTest()[pri:2, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]" name="verifyJoinFromBannerSectionInvalidTest" duration-ms="6672" started-at="2016-02-12T09:36:08Z" finished-at="2016-02-12T09:36:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.cashkaro.helpers.JoinNowHelper.verifyJoinNowErrorValues(JoinNowHelper.java:114)
+	at com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest.verifyJoinFromBannerSectionInvalidTest(VerifyJoinFromWhiteDividerTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFromBannerSectionInvalidTest -->
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest -->
+      <class name="com.cashkaro.tests.forgotPassword.ForgotPasswordTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]" name="setup" is-config="true" duration-ms="14147" started-at="2016-02-12T09:34:49Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.JoinNow.JoinWithFacebookTest@6bdf28bb]" name="setup" is-config="true" duration-ms="12" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="setup" is-config="true" duration-ms="2" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]" name="setup" is-config="true" duration-ms="1" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]" name="setup" is-config="true" duration-ms="3" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]" name="setup" is-config="true" duration-ms="6" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]" name="setup" is-config="true" duration-ms="3" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyForgotPasswordTest()[pri:1, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]" name="verifyForgotPasswordTest" duration-ms="34472" started-at="2016-02-12T09:35:16Z" finished-at="2016-02-12T09:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordTest -->
+        <test-method status="FAIL" signature="verifyForgotPasswordErrorTest()[pri:2, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]" name="verifyForgotPasswordErrorTest" duration-ms="3680" started-at="2016-02-12T09:35:50Z" finished-at="2016-02-12T09:35:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid email address.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid email address.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.cashkaro.helpers.ForgotPasswordHelper.verifyForgotPasswordError(ForgotPasswordHelper.java:52)
+	at com.cashkaro.tests.forgotPassword.ForgotPasswordTest.verifyForgotPasswordErrorTest(ForgotPasswordTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordErrorTest -->
+      </class> <!-- com.cashkaro.tests.forgotPassword.ForgotPasswordTest -->
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest">
+        <test-method status="PASS" signature="verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]" name="verifyJoinFormConfirmEmailErrorTest" duration-ms="7046" started-at="2016-02-12T09:35:03Z" finished-at="2016-02-12T09:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFormConfirmEmailErrorTest -->
+        <test-method status="PASS" signature="verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]" name="verifyJoinFromBannerSectionInvalidTest" duration-ms="5780" started-at="2016-02-12T09:35:10Z" finished-at="2016-02-12T09:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJoinFromBannerSectionInvalidTest -->
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest -->
+      <class name="com.cashkaro.tests.login.LoginTest">
+        <test-method status="PASS" signature="verifyLoginElementsTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="verifyLoginElementsTest" duration-ms="3779" started-at="2016-02-12T09:36:15Z" finished-at="2016-02-12T09:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginElementsTest -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="verifyLoginTest" duration-ms="9035" started-at="2016-02-12T09:36:18Z" finished-at="2016-02-12T09:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="verifyInvalidLoginTest" duration-ms="3475" started-at="2016-02-12T09:36:27Z" data-provider="data" finished-at="2016-02-12T09:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest -->
+        <test-method status="PASS" signature="verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="verifyInvalidLoginTest" duration-ms="3970" started-at="2016-02-12T09:36:31Z" data-provider="data" finished-at="2016-02-12T09:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest -->
+        <test-method status="PASS" signature="verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]" name="verifyInvalidLoginTest" duration-ms="3749" started-at="2016-02-12T09:36:35Z" data-provider="data" finished-at="2016-02-12T09:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginTest -->
+      </class> <!-- com.cashkaro.tests.login.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- cashkaro -->
+</testng-results>

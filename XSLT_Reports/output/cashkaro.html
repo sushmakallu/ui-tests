@@ -1,0 +1,2103 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>cashkaro</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">11</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">14</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">79%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">1m
+               55s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byStatus_failed_FAIL1_details')">loginTest()</a>
+               </td>
+               <td nowrap="true">09:36:39</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byStatus_failed_FAIL1_exception')">com.cashkaro.ui_tests.AutomationException: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginTest()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:39
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:44
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">com.cashkaro.ui_tests.AutomationException
+                        	at com.cashkaro.ui_tests.DriverScript.switchToBrowser(DriverScript.java:134)
+                        	at com.cashkaro.helpers.FacebookHelper.loginFacebook(FacebookHelper.java:21)
+                        	at com.cashkaro.helpers.SignInHelper.loginWithFacebook(SignInHelper.java:95)
+                        	at com.cashkaro.tests.login.LoginWithFacebookTest.loginTest(LoginWithFacebookTest.java:35)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byStatus_failed_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byStatus_failed_FAIL2_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:36:08</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byStatus_failed_FAIL2_exception')">java.lang.AssertionError: 
+                     Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byStatus_failed_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:2, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:08
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byStatus_failed_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:496)
+                        	at org.testng.Assert.assertEquals(Assert.java:125)
+                        	at org.testng.Assert.assertEquals(Assert.java:178)
+                        	at com.cashkaro.helpers.JoinNowHelper.verifyJoinNowErrorValues(JoinNowHelper.java:114)
+                        	at com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest.verifyJoinFromBannerSectionInvalidTest(VerifyJoinFromWhiteDividerTest.java:38)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byStatus_failed_FAIL3_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byStatus_failed_FAIL3_details')">verifyForgotPasswordErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:50</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byStatus_failed_FAIL3_exception')">java.lang.AssertionError: 
+                     Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid email address.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byStatus_failed_FAIL3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyForgotPasswordErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyForgotPasswordErrorTest()[pri:2, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:50
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byStatus_failed_FAIL3_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid
+                        email address.]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:496)
+                        	at org.testng.Assert.assertEquals(Assert.java:125)
+                        	at org.testng.Assert.assertEquals(Assert.java:178)
+                        	at com.cashkaro.helpers.ForgotPasswordHelper.verifyForgotPasswordError(ForgotPasswordHelper.java:52)
+                        	at com.cashkaro.tests.forgotPassword.ForgotPasswordTest.verifyForgotPasswordErrorTest(ForgotPasswordTest.java:30)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS1_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:54</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:54
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS2_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:35:59</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:59
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS3_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:36:04</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:1, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:04
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS4_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:34:49</td>
+               <td nowrap="true" align="right">14s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:34:49
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>14s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS5_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">12 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.JoinWithFacebookTest@6bdf28bb]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>12 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS6_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">2 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>2 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS7_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS8_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">3 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS9_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">6 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>6 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS10_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">3 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byStatus_passed_PASS11_details')">verifyForgotPasswordTest()</a>
+               </td>
+               <td nowrap="true">09:35:16</td>
+               <td nowrap="true" align="right">34s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyForgotPasswordTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyForgotPasswordTest()[pri:1, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:16
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>34s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS12_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:10
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS13_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:35:10</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:10
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byStatus_passed_PASS14_details')">verifyLoginElementsTest()</a>
+               </td>
+               <td nowrap="true">09:36:15</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyLoginElementsTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyLoginElementsTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:15
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyLoginTest_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyLoginTest_byStatus_passed_PASS15_details')">verifyLoginTest()</a>
+               </td>
+               <td nowrap="true">09:36:18</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyLoginTest_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyLoginTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:18
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS16_details')">verifyInvalidLoginTest(abcd
+                     
+                     ,)
+                  </a>
+               </td>
+               <td nowrap="true">09:36:27</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        abcd
+                        
+                        ,
+                        
+                        
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:27
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS17_details')">verifyInvalidLoginTest(,
+                     
+                     abcdefg)
+                  </a>
+               </td>
+               <td nowrap="true">09:36:31</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        
+                        
+                        ,
+                        
+                        abcdefg
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:31
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS18_details')">verifyInvalidLoginTest(,)</a>
+               </td>
+               <td nowrap="true">09:36:35</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        
+                        
+                        ,
+                        
+                        
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:35
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.forgotPassword.ForgotPasswordTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS1_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:34:49</td>
+               <td nowrap="true" align="right">14s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:34:49
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>14s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS2_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">12 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.JoinWithFacebookTest@6bdf28bb]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>12 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS3_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">2 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>2 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS4_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS4_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">1 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>1 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS5_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">3 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS6_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">6 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>6 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS7_details')">setup()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">3 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_setup_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setup
+                     </div>
+                     <div>
+                        <b>Signature: </b>setup()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byClass_PASS8_details')">verifyForgotPasswordTest()</a>
+               </td>
+               <td nowrap="true">09:35:16</td>
+               <td nowrap="true" align="right">34s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordTest_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyForgotPasswordTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyForgotPasswordTest()[pri:1, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:16
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>34s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byClass_FAIL9_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byClass_FAIL9_details')">verifyForgotPasswordErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:50</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byClass_FAIL9_exception')">java.lang.AssertionError: 
+                     Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid email address.]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byClass_FAIL9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyForgotPasswordErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyForgotPasswordErrorTest()[pri:2, instance:com.cashkaro.tests.forgotPassword.ForgotPasswordTest@2d209079]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:50
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:54
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.forgotPassword.ForgotPasswordTest_verifyForgotPasswordErrorTest_byClass_FAIL9_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: Error message is not displayed expected [Please enter a valid email.] but found [Please enter valid
+                        email address.]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:496)
+                        	at org.testng.Assert.assertEquals(Assert.java:125)
+                        	at org.testng.Assert.assertEquals(Assert.java:178)
+                        	at com.cashkaro.helpers.ForgotPasswordHelper.verifyForgotPasswordError(ForgotPasswordHelper.java:52)
+                        	at com.cashkaro.tests.forgotPassword.ForgotPasswordTest.verifyForgotPasswordErrorTest(ForgotPasswordTest.java:30)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:03</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:03
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:10
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:35:10</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest@6b71769e]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:10
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:16
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:35:54</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:54
+                     </div>
+                     <div>
+                        <b>End time: </b>09:35:59
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:35:59</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest_verifyJoinFromBannerSectionInvalidTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:0, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest@2752f6e2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:35:59
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:04
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details')">verifyJoinFormConfirmEmailErrorTest()</a>
+               </td>
+               <td nowrap="true">09:36:04</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFormConfirmEmailErrorTest_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFormConfirmEmailErrorTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFormConfirmEmailErrorTest()[pri:1, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:04
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:08
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byClass_FAIL2_details')">verifyJoinFromBannerSectionInvalidTest()</a>
+               </td>
+               <td nowrap="true">09:36:08</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byClass_FAIL2_exception')">java.lang.AssertionError: 
+                     Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyJoinFromBannerSectionInvalidTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyJoinFromBannerSectionInvalidTest()[pri:2, instance:com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest@e580929]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:08
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest_verifyJoinFromBannerSectionInvalidTest_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">java.lang.AssertionError: Full Name error label is not matching expected [Please type your name.] but found [Full Name:*]
+                        	at org.testng.Assert.fail(Assert.java:94)
+                        	at org.testng.Assert.failNotEquals(Assert.java:496)
+                        	at org.testng.Assert.assertEquals(Assert.java:125)
+                        	at org.testng.Assert.assertEquals(Assert.java:178)
+                        	at com.cashkaro.helpers.JoinNowHelper.verifyJoinNowErrorValues(JoinNowHelper.java:114)
+                        	at com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest.verifyJoinFromBannerSectionInvalidTest(VerifyJoinFromWhiteDividerTest.java:38)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.login.LoginTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byClass_PASS1_details')">verifyLoginElementsTest()</a>
+               </td>
+               <td nowrap="true">09:36:15</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyLoginElementsTest_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyLoginElementsTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyLoginElementsTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:15
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyLoginTest_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyLoginTest_byClass_PASS2_details')">verifyLoginTest()</a>
+               </td>
+               <td nowrap="true">09:36:18</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyLoginTest_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyLoginTest()[pri:1, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:18
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:27
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS3_details')">verifyInvalidLoginTest(abcd
+                     
+                     ,)
+                  </a>
+               </td>
+               <td nowrap="true">09:36:27</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        abcd
+                        
+                        ,
+                        
+                        
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:27
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS4_details')">verifyInvalidLoginTest(,
+                     
+                     abcdefg)
+                  </a>
+               </td>
+               <td nowrap="true">09:36:31</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        
+                        
+                        ,
+                        
+                        abcdefg
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:31
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:35
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS5_details')">verifyInvalidLoginTest(,)</a>
+               </td>
+               <td nowrap="true">09:36:35</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginTest_verifyInvalidLoginTest_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyInvalidLoginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyInvalidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:com.cashkaro.tests.login.LoginTest@1cd072a9]
+                     </div>
+                     <div>
+                        <b>Parameters: </b>
+                        
+                        
+                        
+                        ,
+                        
+                        
+                        
+                        
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:35
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">com.cashkaro.tests.login.LoginWithFacebookTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byClass_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byClass_FAIL1_details')">loginTest()</a>
+               </td>
+               <td nowrap="true">09:36:39</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byClass_FAIL1_exception')">com.cashkaro.ui_tests.AutomationException: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>loginTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>loginTest()[pri:0, instance:com.cashkaro.tests.login.LoginWithFacebookTest@7c75222b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>09:36:39
+                     </div>
+                     <div>
+                        <b>End time: </b>09:36:44
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="com.cashkaro.tests.login.LoginWithFacebookTest_loginTest_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">com.cashkaro.ui_tests.AutomationException
+                        	at com.cashkaro.ui_tests.DriverScript.switchToBrowser(DriverScript.java:134)
+                        	at com.cashkaro.helpers.FacebookHelper.loginFacebook(FacebookHelper.java:21)
+                        	at com.cashkaro.helpers.SignInHelper.loginWithFacebook(SignInHelper.java:95)
+                        	at com.cashkaro.tests.login.LoginWithFacebookTest.loginTest(LoginWithFacebookTest.java:35)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+                        	at org.testng.TestRunner.run(TestRunner.java:624)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+                        	at org.testng.TestNG.run(TestNG.java:1048)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1355)
+                        	at org.testng.TestNG.main(TestNG.java:1324)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

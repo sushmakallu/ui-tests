@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="cashkaro" parallel="false">
+
+	<listeners>
+		<listener class-name="com.cashkaro.ui_tests.TestsListener"></listener>
+	</listeners>
+	<test name="Test">
+		<packages>
+			<package name="com.cashkaro.tests.*" />
+			<!--<package name="com.cashkaro.tests.JoinNow" /> -->
+			<!--<package name="com.cashkaro.tests.login" /> -->
+		</packages>
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

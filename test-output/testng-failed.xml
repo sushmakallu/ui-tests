@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cashkaro]">
+  <listeners>
+    <listener class-name="com.cashkaro.ui_tests.TestsListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromBannerSectionTest -->
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromTopNavTest -->
+      <class name="com.cashkaro.tests.JoinNow.JoinWithFacebookTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.JoinNow.JoinWithFacebookTest -->
+      <class name="com.cashkaro.tests.forgotPassword.ForgotPasswordTest">
+        <methods>
+          <include name="verifyForgotPasswordErrorTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.forgotPassword.ForgotPasswordTest -->
+      <class name="com.cashkaro.tests.login.LoginTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.login.LoginTest -->
+      <class name="com.cashkaro.tests.login.LoginWithFacebookTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.login.LoginWithFacebookTest -->
+      <class name="com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest">
+        <methods>
+          <include name="verifyJoinFromBannerSectionInvalidTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cashkaro.tests.JoinNow.VerifyJoinFromWhiteDividerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [cashkaro] -->
